@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #003844;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #EEF0F2;
 }
 
 .App-link {
@@ -35,4 +35,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.float-child-right {
+  width: 50%;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 100vh;
+  border: 2px solid red;
+  overflow-y: scroll;
+  justify-content: center;
+  align-items: center; 
+}
+.float-child-left {
+  width: 50%;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 100vh;
+  border: 2px solid red;
+  overflow-y: scroll;
+  justify-content: left;
+  text-align: left;
+} 
+
+.App-personalHeader {
+  background-color: #03191E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center; 
+  font-size: calc(10px + 2vmin);
+  color: #EEF0F2;
+}
+
+.Card {
+  background-color: #C6C7C4;
+  width: 90%;
+  margin: 0 auto;
+  height: 200px;
+  color: #03191E;
+  justify-content: center;
+  align-items: center; 
 }

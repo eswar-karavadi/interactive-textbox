@@ -1,0 +1,15 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "name": "Raspberry Pi Magic Mirror",
+        "description": "Used a raspberry pi to create a personalized smart display behind a mirror."
+      },
+      {
+        "id": 2,
+        "name": "Personal Photography Website",
+        "description": "Created a personal website to showcase my photography."
+      }
+    ]
+  }
+  
