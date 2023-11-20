@@ -3,6 +3,9 @@ import './App.css';
 import InteractiveTextbox from './InteractiveTextbox';
 import ProjectList from './Components/ProjectList';
 import projectData from './Components/data.json';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Hello from './Components/Hello';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
@@ -14,6 +17,12 @@ function App() {
             <h2> Undergraduate Student at the University of Maryland</h2>
             <h2>Interactive Textbox Example</h2>
             <InteractiveTextbox />
+            <Router>
+              <Navbar />
+              <Routes>
+                <Route path='/Hello' element={<Hello />} />
+              </Routes>
+            </Router>
           </div>
         </div>
         <div className="float-child-right">
